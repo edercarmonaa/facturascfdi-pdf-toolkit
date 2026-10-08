@@ -1,6 +1,6 @@
-# CFDI PDF Toolkit
+# cfdi-pdf-toolkit
 
-Herramientas de linea de comandos para procesar lotes de facturas CFDI en PDF. El proyecto resuelve una tarea comun en conciliacion fiscal: localizar codigos QR o folios fiscales dentro de muchos PDF, extraer UUID/RFC/total cuando es posible y generar archivos Excel para revision o consulta del estatus ante el SAT.
+`cfdi-pdf-toolkit` es un conjunto de herramientas de linea de comandos para procesar lotes de facturas CFDI en PDF. El proyecto resuelve una tarea comun en conciliacion fiscal: localizar codigos QR o folios fiscales dentro de muchos PDF, extraer UUID/RFC/total cuando es posible y generar archivos Excel para revision o consulta del estatus ante el SAT.
 
 ## Que problema resuelve
 
