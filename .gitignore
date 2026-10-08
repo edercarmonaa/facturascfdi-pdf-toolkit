@@ -1,0 +1,61 @@
+# Entorno local
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Archivos generados por el flujo CFDI
+resultado_*.xlsx
+prueba_*.xlsx
+pdfs_filtrados/
+*_filtrado.pdf
+
+# Documentos fiscales reales o privados
+*.pdf
+*.xlsx
+*.xls
+*.csv
+
+# Temporales y sistema operativo
+.DS_Store
+Thumbs.db
+*.log
+logs/
+tmp/
+temp/
+cache/
+
+# Bases de datos y respaldos locales
+*.sqlite
+*.sqlite3
+*.db
+*.sql
+*.dump
+*.bak
+*.backup
+*.old
+*.copy
+
+# Credenciales y certificados
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+service-account.json
+firebase-adminsdk*.json
+google-services.json
+auth.json
+secrets.json
+secrets.yml
+config.local.json
